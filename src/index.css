@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import 'tailwind-scrollbar-hide/v4';
+
+
+@source "../src/**/*.{ts,tsx,js,jsx}";
 
 *{
     margin: 0;
@@ -20,3 +24,46 @@
     padding: 8px 20px;
 }
 
+.padding-links{
+    padding: 8px 12px;
+}
+
+.padding-header{
+    padding: 12px 0;
+}
+
+.category-bottom-line{
+    animation: expandWidth 300ms;
+}
+
+.nav-category {
+    position: relative;
+}
+
+.nav-category::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 300ms ease;
+}
+
+.nav-category:hover::after {
+    width: 100%;
+}
+
+.nav-category:hover {
+    color: #000;
+}
+
+@keyframes expandWidth {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
