@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.search-input{
+    padding: 8px 20px;
+}
+
+.search-button{
+    padding: 8px 20px;
+}
+
