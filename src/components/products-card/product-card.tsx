@@ -8,13 +8,13 @@ const ProductCard = () => {
     return (
         <Link to="/product/id" className="block max-w-58 w-full">
             <div className="hover:shadow-lg transition-shadow rounded-xl hover:rounded-t-none bg-white overflow-hidden">
-                <div className="relative overflow-hidden w-full aspect-3/4"> 
+                <div className="relative overflow-hidden w-full aspect-3/4">
                     <img
                         src="https://images.uzum.uz/d6nvitlsp2tohdbdqor0/t_product_540_high.jpg"
                         alt="Hello"
                         className="w-full h-full object-cover transition-transform duration-300 hover:scale-105 rounded-xl hover:rounded-none"
                     />
-                    
+
                     <div className="absolute top-2 right-2 z-10">
                         <HeartIcon className="heartIcon" />
                     </div>
