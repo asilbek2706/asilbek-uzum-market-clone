@@ -1,25 +1,13 @@
-import AdBanner from "./components/ad-banner/ad-banner"
-import CategoryProducts from "./components/category-products/category-products"
-import Footer from "./components/footer/footer"
-import Header from "./components/header/header"
-import NavCategories from "./components/nav-categories/nav-categories"
-import PromoItems from "./components/promo-items/promo-items"
+import { Route, Routes } from "react-router-dom"
+import HomePage from "./pages/homepage"
+import ProductPage from "./pages/productpage"
  
 function App(){
   return (
-    <div className="container">
-      <Header /> 
-      <NavCategories />
-      <AdBanner />
-      <PromoItems />
-      <CategoryProducts />
-      <CategoryProducts />
-      <CategoryProducts />
-      <CategoryProducts />
-      <CategoryProducts />
-      <CategoryProducts />
-      <Footer />
-    </div>
+   <Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/product/:id" element={<ProductPage />} />
+   </Routes>
   )
 }
 

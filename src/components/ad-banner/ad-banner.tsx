@@ -3,6 +3,7 @@ import "./ad-banner.css";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import type { KeenSliderInstance } from "keen-slider";
+import { Link } from "react-router-dom";
 
 const AdBanner = () => {
     const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -20,7 +21,7 @@ const AdBanner = () => {
     });
 
     return (
-        <>
+        <Link to='/banner'>
             <div className="navigation-wrapper rounded-xl overflow-hidden">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide">
@@ -106,7 +107,7 @@ const AdBanner = () => {
                     </div>
                 )}
             </div>
-        </>
+        </Link>
     );
 };
 
