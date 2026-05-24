@@ -1,6 +1,6 @@
 const ProductDescription = () => {
     return (
-        <div>
+        <div className="mt-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
             soluta! Impedit a ipsum tempore fuga sint adipisci, iure cumque
             aliquid magni incidunt omnis dolor, libero delectus amet porro

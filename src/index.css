@@ -112,6 +112,10 @@
         margin-top: 32px;
     }
 
+    .mb-4 {
+        margin-bottom: 16px;
+    }
+
     .mt-3 {
         margin-top: 12px;
     }
@@ -144,6 +148,10 @@
 
     .bg-purple {
         background-color: #7000ff;
+    }
+
+    .bg-blue {
+        background-color: #7f4dff;
     }
 
     .border-purple {
