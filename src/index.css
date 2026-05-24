@@ -1,38 +1,37 @@
 @import "tailwindcss";
-@import 'tailwind-scrollbar-hide/v4';
-
+@import "tailwind-scrollbar-hide/v4";
 
 @source "../src/**/*.{ts,tsx,js,jsx}";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1280px;
     padding: 12px;
     margin: 0 auto;
 }
 
-.search-input{
+.search-input {
     padding: 8px 20px;
 }
 
-.search-button{
+.search-button {
     padding: 8px 20px;
 }
 
-.padding-links{
+.padding-links {
     padding: 8px 12px;
 }
 
-.padding-header{
+.padding-header {
     padding: 12px 0;
 }
 
-.category-bottom-line{
+.category-bottom-line {
     animation: expandWidth 300ms;
 }
 
@@ -68,27 +67,26 @@
     }
 }
 
-.products-wrapper{
+.products-wrapper {
     margin-top: 32px;
 }
 
-.products{
-    margin-top: 12px ;
+.products {
+    margin-top: 12px;
 }
 
-.text{
+.text {
     margin-top: 0;
 }
 
-.star{
+.star {
     margin-top: 16px;
 }
 
-.button-padding{
+.button-padding {
     padding: 8px 20px;
     margin: 16px 0;
 }
-
 
 .heartIcon {
     border: none;
@@ -97,28 +95,37 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color: white; 
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.padding-box{
+.padding-box {
     padding-left: 12px;
 }
 
-.footer{
+.footer {
     margin-top: 42px;
 }
 
-.footer-socials{
+.footer-socials {
     margin-top: 32px;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 12px;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 8px;
+}
+
+.my-3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.p-2 {
+    padding: 8px;
 }
