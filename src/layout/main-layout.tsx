@@ -12,7 +12,10 @@ const MainLayout = ({ children }: MainLayoutProps) =>{
         <div className="container">
             <Header />
             <NavCategories />
+            <div className="mt-3">
+
             {children}
+            </div>
             <Footer />
         </div>
     )

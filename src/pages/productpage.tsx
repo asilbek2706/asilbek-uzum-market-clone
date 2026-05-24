@@ -1,6 +1,13 @@
+import CategoryProducts from "../components/category-products/category-products";
+import Product from "../components/product/product";
+
 const ProductPage = () => {
     return (
-        <p>Product Page </p>
-    )
-}
-export default ProductPage
+        <>
+            <Product />
+            <CategoryProducts />
+            <CategoryProducts />
+        </>
+    );
+};
+export default ProductPage;
