@@ -1,6 +1,24 @@
 .navigation-wrapper {
   position: relative;
   margin-top: 16px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.keen-slider {
+  width: 100%;
+}
+
+.keen-slider__slide {
+  width: 100%;
+}
+
+.keen-slider__slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .dots {

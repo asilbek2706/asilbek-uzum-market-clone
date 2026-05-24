@@ -4,7 +4,7 @@ import PromoItems from "../components/promo-items/promo-items";
 
 const HomePage = () => {
     return (
-        <div className="">
+        <div>
             <AdBanner />
             <PromoItems />
             <CategoryProducts />

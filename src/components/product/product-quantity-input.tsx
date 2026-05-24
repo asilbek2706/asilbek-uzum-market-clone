@@ -28,9 +28,10 @@ const ProductQuantityInput = ({
     };
     return (
         <div>
+        <p>Miqdor:</p>
             <div
                 className="flex items-center gap-2
- border rounded-md border-gray-300 w-fit"
+ border rounded-md border-gray-300 w-fit mt-1"
             >
                 <div className="p-2">
                     <MinusIcon
