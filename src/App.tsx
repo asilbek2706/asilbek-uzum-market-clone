@@ -10,6 +10,11 @@ function App(){
       <NavCategories />
       <AdBanner />
       <CategoryProducts />
+      <CategoryProducts />
+      <CategoryProducts />
+      <CategoryProducts />
+      <CategoryProducts />
+      <CategoryProducts />
     </div>
   )
 }

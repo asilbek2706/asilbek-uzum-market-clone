@@ -1,7 +1,7 @@
 
 const ProductPrice = () => {
     return (
-        <div>
+        <div className="padding-box">
             <div className="flex items-center font-bold text-purple-700 gap-2">
                 <h4>23 552</h4>
                 <img src="/icons/card.svg" alt="card" />
