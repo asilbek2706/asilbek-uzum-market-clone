@@ -2,136 +2,160 @@
 @import "tailwind-scrollbar-hide/v4";
 
 @layer base {
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    max-width: 1240px;
-    padding: 12px;
-    margin: 0 auto;
-}
-
-.search-input {
-    padding: 8px 20px;
-}
-
-.search-button {
-    padding: 8px 20px;
-}
-
-.padding-links {
-    padding: 8px 12px;
-}
-
-.padding-header {
-    padding: 12px 0;
-}
-
-.category-bottom-line {
-    animation: expandWidth 300ms;
-}
-
-.nav-category {
-    position: relative;
-}
-
-.nav-category::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width 300ms ease;
-}
-
-.nav-category:hover::after {
-    width: 100%;
-}
-
-.nav-category:hover {
-    color: #000;
-}
-
-@keyframes expandWidth {
-    from {
-        width: 0;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    to {
+
+    .container {
+        max-width: 1240px;
+        padding: 12px;
+        margin: 0 auto;
+    }
+
+    .search-input {
+        padding: 8px 20px;
+    }
+
+    .search-button {
+        padding: 8px 20px;
+    }
+
+    .padding-links {
+        padding: 8px 12px;
+    }
+
+    .padding-header {
+        padding: 12px 0;
+    }
+
+    .category-bottom-line {
+        animation: expandWidth 300ms;
+    }
+
+    .nav-category {
+        position: relative;
+    }
+
+    .nav-category::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width 300ms ease;
+    }
+
+    .nav-category:hover::after {
         width: 100%;
     }
-}
 
-.products-wrapper {
-    margin-top: 32px;
-}
+    .nav-category:hover {
+        color: #000;
+    }
 
-.products {
-    margin-top: 12px;
-}
+    @keyframes expandWidth {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
 
-.text {
-    margin-top: 0;
-}
+    .products-wrapper {
+        margin-top: 32px;
+    }
 
-.star {
-    margin-top: 16px;
-}
+    .products {
+        margin-top: 12px;
+    }
 
-.button-padding {
-    padding: 8px 20px;
-    margin: 16px 0;
-}
+    .text {
+        margin-top: 0;
+    }
 
-.heartIcon {
-    border: none;
-    background-color: gray;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .star {
+        margin-top: 16px;
+    }
 
-.padding-box {
-    padding-left: 12px;
-}
+    .button-padding {
+        padding: 8px 20px;
+        margin: 16px 0;
+    }
 
-.footer {
-    margin-top: 42px;
-}
+    .heartIcon {
+        border: none;
+        background-color: gray;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.footer-socials {
-    margin-top: 32px;
-}
+    .padding-box {
+        padding-left: 12px;
+    }
 
-.mt-3 {
-    margin-top: 12px;
-}
+    .footer {
+        margin-top: 42px;
+    }
 
-.mt-1 {
-    margin-top: 4px;
-}
+    .footer-socials {
+        margin-top: 32px;
+    }
 
-.mt-2 {
-    margin-top: 8px;
-}
+    .mt-3 {
+        margin-top: 12px;
+    }
 
-.my-3 {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
+    .mt-4 {
+        margin-top: 16px;
+    }
 
-.p-2 {
-    padding: 8px;
-}
+    .mt-1 {
+        margin-top: 4px;
+    }
 
+    .mt-2 {
+        margin-top: 8px;
+    }
+
+    .my-3 {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .p-2 {
+        padding: 8px;
+    }
+
+    .py-3 {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .bg-purple {
+        background-color: #7000ff;
+    }
+
+    .border-purple {
+        border-color: #7000ff;
+    }
+
+    .text-purple {
+        color: #7000ff;
+    }
+
+    .px-5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

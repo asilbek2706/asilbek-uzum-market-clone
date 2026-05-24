@@ -1,14 +1,11 @@
-import { Link } from "react-router-dom";
 import Button from "../button";
 
 const ProductButtons = () => {
     return (
-        <div className="flex items-center gap-2">
-            <Button className="cursor-pointer">Navbatga qo'shish</Button>
+        <div className="flex items-center gap-2 mt-4 ">
+            <Button className="cursor-pointer w-full">Navbatga qo'shish</Button>
 
-            <Link to="/">
-                <Button className="cursor-pointer">Do'konga o'tish</Button>
-            </Link>
+            <Button variant={"outline"} className="cursor-pointer w-full">Do'konga o'tish</Button>
         </div>
     );
 };

@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.3.0",
+    "class-variance-authority": "^0.7.1",
     "keen-slider": "^6.8.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
